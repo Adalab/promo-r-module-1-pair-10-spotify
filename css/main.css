@@ -1,0 +1,7 @@
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  max-width: 480px;
+  width: 100%;
+}
