@@ -15,7 +15,7 @@
 /* HEADER */
 .header {
   width: 100vw;
-  height: 7vh;
+  height: 9vh;
   background-color: black;
   display: flex;
   position: fixed;
@@ -27,11 +27,11 @@
   justify-content: space-between;
   align-items: center;
   width: 93vw;
-  height: 7vh;
+  height: 9vh;
 }
 .header-logo {
   width: 20%;
-  height: 55%;
+  height: 60%;
 }
 .header-boton {
   width: 8%;
@@ -43,9 +43,9 @@
   width: 100%;
   height: 100%;
 }
+/* MAIN */
 .main {
   width: 100vw;
-  height: 100vh;
   position: relative;
   top: 38px;
 }
@@ -85,4 +85,38 @@
   margin-bottom: 40px;
   font-size: 0.9rem;
   line-height: 1.4rem;
+}
+.sectionWhite-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sectionWhite-title {
+  color: black;
+  font-size: 2rem;
+  font-family: var(--familytexto);
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  line-height: 2.7rem;
+}
+.sectionWhite-article {
+  display: flex;
+  width: 100%;
+}
+.img-container {
+  width: 25%;
+  height: 25vh;
+}
+.sectionWhite-image {
+  width: 100%;
+}
+.sectionWhite-text {
+  border: 2px solid red;
+  font-family: var(--familytexto);
+  line-height: 1.4rem;
+}
+.sectionWhite-text__h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
